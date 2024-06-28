@@ -1,0 +1,112 @@
+.google {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.g {
+  color: rgb(67, 128, 243);
+}
+
+.o {
+  color: rgb(247, 11, 58);
+}
+
+.o2 {
+  color: rgb(255, 183, 0);
+}
+
+.l {
+  color: rgb(7, 158, 40);
+}
+
+.bodyDiv {
+  padding-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.searchBox {
+  width: 100%;
+  padding: 10px 40px 10px 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+.bodyDiv i {
+  position: absolute;
+  font-size: 20px;
+  color: #888;
+}
+.bodyDiv .fa-search {
+  left: 10px;
+}
+.bodyDiv .fa-microphone {
+  right: 50px;
+}
+.bodyDiv .fa-camera {
+  right: 10px;
+}
+.icons {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 400px;
+  padding-top: 50px;
+  justify-content: space-between;
+  padding-right: 400px;
+}
+
+.iconAndText {
+  display: grid;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration-line: underline;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+}
+
+button {
+  float: right;
+  width: 15%;
+  padding: 10px 40px 10px 40px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: rgb(173, 212, 247);
+  text-decoration: none;
+  color: black;
+  display: flex;
+  position: sticky;
+}
